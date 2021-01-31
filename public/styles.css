@@ -69,7 +69,7 @@ header {
 /* navigation */
 nav {
    font-size: 16px;
-   font-family: "Indie+Flower", cursive;
+   font-family: "Lobster", cursive;
    padding-top: 20px;
    background: white;
    float: right;
@@ -108,7 +108,7 @@ nav ul #currentpage {
 article {
    width: 960px;
    float: right;
-   font-family: "Indie+Flower", cursive;
+   font-family: "Lobster", cursive;
    text-align: left;
    background: white;
    padding: 10px;
@@ -116,7 +116,7 @@ article {
 }
 
 article h2 {
-   font-family: "Indie+Flower", cursive;
+   font-family: "Lobster", cursive;
    font-size: 1.2em;
    font-weight: bold;
    text-align: center;
@@ -140,4 +140,5 @@ footer {
 
 footer p {
    text-align: center;
+   /*font-family: "Lobster", cursive;*/
 }
