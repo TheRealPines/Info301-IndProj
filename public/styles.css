@@ -37,26 +37,32 @@ time, mark, audio, video {
 body {
    line-height: 1;
    width: 960px;
-   background: #4593C4;
+   background: #64B6FF;
    margin: 0 auto;
    font-family: Verdana, Geneva, sans-serif; 
    position: relative;
 }
 
-a:link, a:visited {
+a:active {
+   text-decoration: none;
+   color: white;
+}
+
+a:visited{
+  text-decoration: none;
+  color: black;
+}
+
+a:link {
    text-decoration: none;
    color: #EFE0B9;
 }
 
 a:hover {
    text-decoration: underline;
-   color: inherit;
+   color: #FFAD64;
 }
 
-a:active {
-   text-decoration: none;
-   color: inherit;
-}
 
 /* page header */
 header {
