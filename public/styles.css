@@ -5,32 +5,16 @@
     Filename: project.css
 */
 
-html {
-  background-color: #F1C606;
-  background-image: url("img/RK6efG.jpg");
-  background-repeat: repeat;
-}
+/* */
 
-li#nav, a{
-  box-sizing: border-box;
-  margin
-}
-
-.nav, a{
-  color: white;
-  text-decoration: none;
-}
-
-/*
-
-/* apply a natural box layout model to all elements 
+/* apply a natural box layout model to all elements */
 * {
    -moz-box-sizing: border-box;
    -webkit-box-sizing: border-box;
    box-sizing: border-box;
 }
 
-/* reset rules 
+/* reset rules */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -82,7 +66,7 @@ a:hover {
 }
 
 
-/* page header 
+/* page header */
 header {
    width: 960px;
    background: white;
@@ -90,7 +74,7 @@ header {
    float: left;
 }
 
-/* navigation 
+/* navigation */
 nav {
    font-size: 16px;
    font-family: "Lobster", cursive;
@@ -128,7 +112,7 @@ nav ul #currentpage {
    color: white;
 }
 
-/* main content 
+/* main content */
 article {
    width: 960px;
    float: right;
@@ -153,7 +137,7 @@ article p {
 }
 
 
-/* footer 
+/* footer */
 footer {
    background: white;
    width: 960px;
@@ -164,8 +148,7 @@ footer {
 
 footer p {
    text-align: center;
-   /*font-family: "Lobster", cursive;
+   /*font-family: "Lobster", cursive;*/
 }
 
 
-*/
