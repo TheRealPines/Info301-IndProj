@@ -37,7 +37,7 @@ time, mark, audio, video {
 
 html{
   -ms-text-size-adjust:100%;
-  -webkit-text-size-adjust:100%
+  -webkit-text-size-adjust:100%;
 }
 
 /* creating the background color for the nav bar */
@@ -46,20 +46,31 @@ html{
   background-color: #000000;
 }
 
-/*  */
+
+/* settings for the links */
 .card a{
-  float: left;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-
-}
-
-.card a:hover{
   float: left;
   color: #568396;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+
+}
+
+/* settings for the links while being hovered */
+.card a:hover{
+  float: left;
+  color: #2C383D;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* settings for the active link only */
+
+.card a.active{
+  background-color: #568396;
+  color: #000000;
 }
