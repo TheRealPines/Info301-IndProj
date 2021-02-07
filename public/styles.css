@@ -5,8 +5,6 @@
     Filename: project.css
 */
 
-/* */
-
 /* apply a natural box layout model to all elements */
 * {
    -moz-box-sizing: border-box;
@@ -39,32 +37,26 @@ time, mark, audio, video {
 body {
    line-height: 1;
    width: 960px;
-   background: #64B6FF;
+   background: #4593C4;
    margin: 0 auto;
    font-family: Verdana, Geneva, sans-serif; 
    position: relative;
 }
 
-a:active {
-   text-decoration: none;
-   color: white;
-}
-
-a:visited{
-  text-decoration: none;
-  color: black;
-}
-
-a:link {
+a:link, a:visited {
    text-decoration: none;
    color: #EFE0B9;
 }
 
 a:hover {
    text-decoration: underline;
-   color: #FFAD64;
+   color: inherit;
 }
 
+a:active {
+   text-decoration: none;
+   color: inherit;
+}
 
 /* page header */
 header {
@@ -77,7 +69,7 @@ header {
 /* navigation */
 nav {
    font-size: 16px;
-   font-family: "Lobster", cursive;
+   font-family: "Indie+Flower", cursive;
    padding-top: 20px;
    background: white;
    float: right;
@@ -116,7 +108,7 @@ nav ul #currentpage {
 article {
    width: 960px;
    float: right;
-   font-family: "Lobster", cursive;
+   font-family: "Indie+Flower", cursive;
    text-align: left;
    background: white;
    padding: 10px;
@@ -124,7 +116,7 @@ article {
 }
 
 article h2 {
-   font-family: "Lobster", cursive;
+   font-family: "Indie+Flower", cursive;
    font-size: 1.2em;
    font-weight: bold;
    text-align: center;
@@ -148,7 +140,4 @@ footer {
 
 footer p {
    text-align: center;
-   /*font-family: "Lobster", cursive;*/
 }
-
-
