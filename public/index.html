@@ -17,17 +17,29 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
   <link rel="stylesheet" href="styles.css">
-  <style>
-    body {font-family: ""}
-  </style>
-  <script src=""></script>
+
+
   <body>
-
-
-    <div class="">
-     <h1>This is a Heading</h1>
-     <p>This is a paragraph.</p>
-     <p>This is another paragraph.</p>
+    <!-- Navbar -->
+    <div class="top">
+      <div class="card">
+        <a class="button large medium right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu">
+          <i class="fa fa-bars"></i>
+        </a>
+        
+        <a href="index.html" class="large-padding">HOME</a>
+        <a href="index.html" class="large-padding">HOME</a>
+        <a href="contact.html" class="large-padding">CONTACT</a>
+        <a href="index.html" class="large-padding">MORE</a>
+      </div>
+    </div>
+    
+    <!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+    <div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+      <a href="#band" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">BAND</a>
+      <a href="#tour" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">TOUR</a>
+      <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTACT</a>
+      <a href="#" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">MERCH</a>
     </div>
 
   </body>
