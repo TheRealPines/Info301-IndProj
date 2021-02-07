@@ -12,6 +12,7 @@
    box-sizing: border-box;
 }
 
+/* */
 /* reset rules */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -34,4 +35,31 @@ time, mark, audio, video {
    vertical-align: baseline;
 }
 
-html{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}
+html{
+  -ms-text-size-adjust:100%;
+  -webkit-text-size-adjust:100%
+}
+
+/* creating the background color for the nav bar */
+.card{
+  overflow: hidden;
+  background-color: #000000;
+}
+
+/*  */
+.card a{
+  float: left;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+
+}
+
+.card a:hover{
+  float: left;
+  color: #568396;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
