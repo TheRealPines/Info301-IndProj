@@ -102,7 +102,6 @@ body{
 
 /* setting to make sure that the footer and nav match */
 footer{
-  position: absolute;
   bottom: 0;
   width: 100%;
   background-color: #000000;
@@ -111,4 +110,16 @@ footer{
   padding: 20px 20px;
   text-align: center;
   margin: 0;
+}
+
+/* creating the three column picture format */
+.three::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.three-thing{
+  float: left;
+  width: 33.33%;
+  padding: 5px;
 }
