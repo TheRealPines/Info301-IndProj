@@ -46,15 +46,16 @@ html{
   background-color: #000000;
 }
 
+.top
 
 /* settings for the links */
 .card a{
   float: left;
   color: #568396;
   text-align: center;
-  padding: 14px 16px;
+  padding: 40px 40px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 20px;
 
 }
 
@@ -65,21 +66,22 @@ html{
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 20px;
 }
 
 /* settings for the active link only */
 
 .card a.active{
-  background-color: #568396;
+  background-color: #2C383D;
   color: #000000;
 }
 
 .logo{
-  width: 20px;
-  
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 body{
-  background-color: #2C383D;
+  background-color: #568396;
 }
