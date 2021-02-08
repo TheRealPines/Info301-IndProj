@@ -36,6 +36,7 @@ time, mark, audio, video {
 }
 
 html{
+  height: 100%;
   -ms-text-size-adjust:100%;
   -webkit-text-size-adjust:100%;
 }
@@ -76,19 +77,23 @@ html{
 
 /* aligns the logo and slogan to the center of the site */
 .center,.logo{
+  font-size: 50px;
   text-align: center;
   display: block;
   margin-left: auto;
   margin-right: auto;
+  padding: 10px;
 }
 
 body{
+  height: 100%;
   background-color: #568396;
   font-family: "Lato", sans-serif /* sets teh global font*/
 }
 
 .description{
   padding: 10px;
+  background-color: #62808C;
 }
 
 .heading1{
@@ -97,9 +102,13 @@ body{
 
 /* setting to make sure that the footer and nav match */
 footer{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
   background-color: #000000;
   overflow: hidden;
   color: #568396;
   padding: 20px 20px;
   text-align: center;
+  margin: 0;
 }
