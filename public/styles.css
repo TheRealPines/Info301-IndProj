@@ -46,8 +46,6 @@ html{
   background-color: #000000;
 }
 
-.top
-
 /* settings for the links */
 .card a{
   float: left;
@@ -64,7 +62,7 @@ html{
   float: left;
   color: #2C383D;
   text-align: center;
-  padding: 14px 16px;
+  padding: 40px 40px;
   text-decoration: none;
   font-size: 20px;
 }
@@ -76,7 +74,7 @@ html{
   color: #000000;
 }
 
-.logo{
+.center{
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -84,4 +82,6 @@ html{
 
 body{
   background-color: #568396;
+  font-family: "Lato", sans-serif
 }
+
