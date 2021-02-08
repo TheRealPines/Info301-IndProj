@@ -45,6 +45,7 @@ html{
 .card{
   overflow: hidden;
   background-color: #000000;
+
 }
 
 /* settings for the links */
@@ -100,8 +101,15 @@ body{
   font-size: 40px
 }
 
+.heading3{
+  font-size: 30px;
+  font-weight: bold;
+  padding: 10px;
+}
+
 /* setting to make sure that the footer and nav match */
 footer{
+  left: 0;
   bottom: 0;
   width: 100%;
   background-color: #000000;
